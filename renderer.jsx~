@@ -1,0 +1,48 @@
+class StartScreen extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isCreate: false,
+    };
+  }
+  changeMethod() {
+    this.setState({
+      isCreate: !this.state.isCreate,
+    });
+  }
+  handleSubmit() {
+    
+  }
+  renderOpen() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+	<label htmlFor="url">
+	  Repository path
+	</label>
+	<input
+	  id="url"
+	/>
+      </form>
+    );
+  }
+  renderCreate() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+      </form>
+    );
+  }
+  render() {
+    return (
+      <div className="screen-start">
+	<button onClick={() => this.changeMethod()}>
+	  {(this.state.isCreate ? 'Create' : 'Open') +
+	   ' a repository'}
+	</button>
+	{this.state.isCreate ? this.renderCreate() : this.renderOpen()}
+      </div>
+    );
+  }
+}
+
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<StartScreen />);

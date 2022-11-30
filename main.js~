@@ -1,0 +1,67 @@
+/*
+  main process
+  provide backend functions wrapped in "gix" object
+
+  function structure:
+  
+*/
+
+/*
+  JavaScript notes:
+  define variables in switch is not allowed
+*/
+const { app, BrowserWindow, ipcMain } = require('electron')
+const path = require('path')
+const { spawnSync } = require('node:child_process')
+
+function gix(cmd, ...args) {
+  // TODO safety prevent command injection
+  let result
+  switch(cmd) {
+  case 'init':
+    // identifier
+    // TODO check path existence & mkdir
+    // 0: path
+    result = spawnSync('git', ['init', args[0]])
+    break
+  case 'clone':
+    // 0: repo, 1: path
+    // TODO check path e & mkdir
+    result = spawnSync('git', ['clone', args[0], args[1]])
+    break
+  case 'sync':
+    break
+  case 'clean':
+    break
+  case 'checkout':
+    break
+  case 'commit':
+    break
+  }
+  return {
+    status: result.status,
+    stdout: result.stdout.toString(),
+  }
+}
+
+function createWindow () {
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
+    }
+  });
+  ipcMain.handle('gix', gix);
+  win.loadFile('index.html')
+}
+
+app.whenReady().then(() => {
+  createWindow()
+  app.on('active', () => {
+    if (BrowserWindow.getAllWindows().length === 0) createWindow()
+  })
+});
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') app.quit()
+});

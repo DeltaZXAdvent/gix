@@ -1,0 +1,5 @@
+* JavaScript
+** bound()
+** Use "this"
+** keyword "async"
+JAVASCRIPT ASYNCHRONOUS NATURE

@@ -1,0 +1,8 @@
+* Gix
+| gix init                         | git init                                          |
+| gix clone URL                    | git clone URL                                     |
+| gix commit                       | git commit                                        |
+| gix fetch <repo>                 | git fecth <repo>                                  |
+| gix checkout <repo>/path/to/file | git fecth <repo> && git checkout -- /path/to/file |
+| gix clean                        | rm ...                                            |
+

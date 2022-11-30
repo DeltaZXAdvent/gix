@@ -1,0 +1,1 @@
+1. Cannot use require react and react-dom packages in preload script.

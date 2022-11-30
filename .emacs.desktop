@@ -1,0 +1,67 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Oct 14 19:22:59 2022
+;; Desktop file format version 208
+;; Emacs version 28.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25417 18067 218297 762000) (desktop . "208") "deltazx@dizzyx" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white smoke") (background-color . "gray20") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (last-focus-update . t) (frameset--id . "46A2-1E4A-4D71-4ECA") (frameset--mini t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (height . 29) (width . 61) (left + -10) (top . 36)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 124) (min-pixel-width . 150) (min-pixel-height-ignore . 93) (min-pixel-width-ignore . 75) (min-pixel-height-safe . 31) (min-pixel-width-safe . 30)) leaf (pixel-width . 947) (pixel-height . 887) (total-width . 63) (total-height . 28) (normal-height . 1.0) (normal-width . 1.0) (buffer "preload.js" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 27) (start . 1)) (prev-buffers ("preload.js" 1 266) ("main.js" 1 36))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white smoke") (background-color . "gray20") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (last-focus-update) (frameset--id . "DA5B-BA66-5836-FDD4") (frameset--mini t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (height . 29) (width . 61) (left . 930) (top . 36)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 124) (min-pixel-width . 150) (min-pixel-height-ignore . 93) (min-pixel-width-ignore . 75) (min-pixel-height-safe . 31) (min-pixel-width-safe . 30)) leaf (pixel-width . 947) (pixel-height . 887) (total-width . 63) (total-height . 28) (normal-height . 1.0) (normal-width . 1.0) (buffer "main.js" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 451) (start . 256)) (prev-buffers ("index.html" 1 481))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white smoke") (background-color . "gray20") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (last-focus-update) (frameset--id . "CFA1-7068-5B11-424D") (frameset--mini t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (height . 29) (width . 61) (left . 930) (top . 36)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 124) (min-pixel-width . 150) (min-pixel-height-ignore . 93) (min-pixel-width-ignore . 75) (min-pixel-height-safe . 31) (min-pixel-width-safe . 30)) leaf (pixel-width . 947) (pixel-height . 887) (total-width . 63) (total-height . 28) (normal-height . 1.0) (normal-width . 1.0) (buffer "index.html" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 740) (start . 1)) (prev-buffers ("main.js" 1 36) ("renderer.js" 1 216))) (((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Mono-normal-normal-normal-*-25-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "white smoke") (background-color . "gray20") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "dark turquoise") (scroll-bar-background . "gray20") (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . fullheight) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "white") (sticky) (environment) (last-focus-update) (frameset--id . "C535-B31E-D4E0-CF01") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (user-size . t) (height . 29) (width . 80) (left . 40) (top . 36)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 124) (min-pixel-width . 150) (min-pixel-height-ignore . 93) (min-pixel-width-ignore . 75) (min-pixel-height-safe . 31) (min-pixel-width-safe . 30)) leaf (pixel-width . 1232) (pixel-height . 868) (total-width . 82) (total-height . 28) (normal-height . 1.0) (normal-width . 1.0) (buffer "renderer.js" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 183) (start . 1)) (prev-buffers ("main.js" 1 36) ("renderer.js" 1 216) ("index.html" 1 481) ("preload.js" 1 238) ("*scratch*" 1 146))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/repos/gix-gui/" "~/repos/gix-gui/index.html" "~/repos/gix-gui/renderer.js" "~/repos/gix-gui/main.js" "~/repos/gix-gui/preload.js"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/deltazx/repos/gix-gui/preload.js"
+  "preload.js"
+  'js-mode
+  nil
+  27
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 25417 18030 741869 896000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (238 59 60))))
+
+(desktop-create-buffer 208
+  "/home/deltazx/repos/gix-gui/main.js"
+  "main.js"
+  'js-mode
+  nil
+  451
+  '(137 nil)
+  nil
+  nil
+  '((buffer-display-time 25417 18030 572077 653000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (163 233 163 584 449 450))))
+
+(desktop-create-buffer 208
+  "/home/deltazx/repos/gix-gui/index.html"
+  "index.html"
+  'mhtml-mode
+  nil
+  740
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25417 18030 438975 433000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/deltazx/repos/gix-gui/renderer.js"
+  "renderer.js"
+  'js-mode
+  nil
+  183
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25417 18030 329574 195000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+

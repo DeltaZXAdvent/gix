@@ -1,0 +1,14 @@
+{
+  "name": "gix",
+  "version": "1.0.0",
+  "description": "A user-friendly distributed file system.",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^21.3.1"
+  },
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}
